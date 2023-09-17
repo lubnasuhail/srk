@@ -1,0 +1,42 @@
+body{
+    background-color: bisque;
+    text-align: center;
+    margin: 0px;
+}
+.menu{
+    position: fixed;
+    /* background-color: blue; */
+    width: 100px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center; 
+     /* justify-content: center; */
+}
+img{
+    margin-top: 100px;
+}
+.links{
+    display: inline;
+    padding-left: 30px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: font-size Is;
+}
+a:hover{
+    font-size: 30px;
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    padding: 50px;
+}
+#home{
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2,0,36) 0% , rgba(9,121,49,1) 35%, rgba(0,212,255,1)100%);
+}
